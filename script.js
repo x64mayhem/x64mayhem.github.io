@@ -1,4 +1,4 @@
-const chars = "☺Σ×Π#-_¯—→↓↑←0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
+const chars = "सकतсакетупадхьяйपधय";
 
 var Glitch = function(selector, index, numberOfGlitchedLetter, timeGlitch, timePerLetter, timeBetweenGlitch){
 	this.selector = selector;
@@ -71,7 +71,7 @@ var arrayElements;
 var glitchArray = [];
 
 function initAllGlitch(){
-	arrayElements = document.querySelectorAll(".content");
+	arrayElements = document.querySelectorAll(".aa_of");
 	for(let i=0; i<arrayElements.length; i++){
 		let selector = arrayElements[i];
 		let randLetterNumber = 2 + Math.floor(Math.random() * 8);
