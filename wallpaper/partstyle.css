@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: #000000;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#aa_particles {
+  z-index: 4;
+  height: 100%;
+  height: 100vh;
+  background: #000000;
+}
+
+.aa_sec {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: 0  auto;
+}
+
+.aa_txt {
+  font: 100 10vh/1 Roboto;
+  text-align: center;
+  color: #646464;
+}
+
+.aa_inner {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  background: #e4e4e4;
+}
+
+.aa_of {
+  padding: 1rem;
+    font: 50 10vh/1 Hind;
+  color: #ffffff;
+  background: #000000;
+}
+
+.aa_sakau {
+  display: table;
+  width: 100%;
+  vertical-align: bottom;
+  margin: 5rem 0 5rem;
+  text-align: center;
+  background: #e4e4e4;
+  color: #000000;
+  font: 100 3vh/2 Roboto;
+}
+.aa_sakau a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #363636;
+}
